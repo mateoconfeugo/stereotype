@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Stereotype by mateoconfeugo</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Stereotype</h1>
+        <p>Leiningen project serving as an example of how I express my idioms and best practices for a Clojure based application</p>
+
+        <p class="view"><a href="https://github.com/mateoconfeugo/stereotype">View the Project on GitHub <small>mateoconfeugo/stereotype</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/mateoconfeugo/stereotype/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/mateoconfeugo/stereotype/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/mateoconfeugo/stereotype">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a name="stereotype" class="anchor" href="#stereotype"><span class="octicon octicon-link"></span></a>stereotype</h1>
+
+<p>Leiningen project serving as an example of how I express my idioms and best practices for a Clojure based application</p>
+
+<p>Sample of how I'm doing the following practices that exist for every project.  There will be a bias toward applications in the style as Software as a Service.  Typically manifesting itself as a client - server implemented as a compojure ring based web server responding and pushing data to a websocket enabled single page web application written in clojurescript.  Much of this is about me learning on how to best use leiningen and plugins.  Further creating a plugin of my own to implement the ideas expressed here.</p>
+
+<p>Practices cover the following areas of concern when building and maintaining software</p>
+
+<ul>
+<li>Continuous Integration </li>
+<li>Continuous Delivery </li>
+<li>Literate Programming </li>
+<li>Test Driven Programming </li>
+<li>Configuration Management </li>
+<li>Development </li>
+<li>Debugging </li>
+<li>Deployment </li>
+<li>Clojure best practices</li>
+</ul><p>Things to look for as you look at the stereo typical project</p>
+
+<ul>
+<li>Project Documentation using marginalia</li>
+<li>Dev-Ops using pallet ops
+** Example of all the different types of deployments
+** Using lein pallet from command line to perform dev-ops tasks an application will have through-out its lifecycle</li>
+<li>Tests driven by using expectations framework and associated lein plugin</li>
+<li>Testing strategy of using clj-driver to implement high level acceptance tests verifing the high level functional requirements are satisfied</li>
+<li>Deploying uberjars and jars to a private repository along with a wrapper project for deploying easily into the cloud</li>
+<li>Simplified client server communication layer</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/mateoconfeugo">mateoconfeugo</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
